@@ -37,7 +37,7 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-                <h3>Semua Pegawai Terdaftar sebagai peserta BPJS Kesehatan</h3>
+                <h4>Semua Pegawai Terdaftar sebagai peserta BPJS Kesehatan</h4>
                 <br>
                 <p>Untuk melihat status Keanggotan dan Tanggungan bisa dilihat melalui : </p>
                 <p>
@@ -79,7 +79,7 @@
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
                  <p><b>Email    : </b>yan_hc_jabar@pln.co.id <b>(menggunakan email Korporat)</b></p>
-                <p><b>Subject  : </b>[BPJS KESEHATAN] NIP - Pendaftaran/Perubahan Data peserta</p>
+                <p><b>Subject  : </b>[BPJS KESEHATAN] NIP - Pendaftaran/Perubahan Data peserta/tanggungan</p>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
 
           <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-                <h3>Semua Pegawai Terdaftar sebagai peserta BPJS KETENAGAKERJAAN</h3>
+                <h4>Semua Pegawai Terdaftar sebagai peserta BPJS KETENAGAKERJAAN</h4>
                 <ul>
                     <b>
                     <li> BPJS JHT (JAMINAN HARI TUA)</li>
