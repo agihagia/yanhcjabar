@@ -46,7 +46,7 @@
                     </ul>
                     <li>Penggantian Lensa Kacamata Selanjutnya untuk Pegawai</li>
                     <ul>
-                    <li>Lensa Kacamata selanjutnya jika terdapat perubahan diopti lensa minus / plus / silindris -> 0,25 (nol koma dua lima)</li>
+                    <li>Lensa Kacamata selanjutnya jika terdapat perubahan dioptri lensa minus / plus / silindris -> 0,25 (nol koma dua lima)</li>
                     </ul>
                     <li>Penggantian bingkai Kacamata Selanjutnya untuk Pegawai</li>
                     <ul>

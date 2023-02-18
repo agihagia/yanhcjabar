@@ -10,20 +10,10 @@ class Home extends BaseController
 		$guru = $this->guru->selectCount('guru_id')->first();
 		$siswa = $this->siswa->selectCount('siswa_id')->first();
 
-
-		$pegawai = $this->pegawai->selectCount('id')
-		->where('eegrp','1')->first();
-
-		$pensiun = $this->pegawai->selectCount('id')
-		->where('eegrp','3')->first();
-
-		$where='sty is not null';
-		$pegawaikeluarga = $this->keluarga->selectCount('id')
-		->where('eegrp','1')->where($where)->first();
-
-		$where='sty is not null';
-		$pensiunkeluarga = $this->keluarga->selectCount('id')
-		->where('eegrp','3')->where($where)->first();
+		$pegawai = $this->pegawai->select('jml_pegawai')->orderBy('tgl_insert', 'DESC')->limit(1)->first();
+		$pensiun = $this->pegawai->select('jml_pensiun')->orderBy('tgl_insert', 'DESC')->limit(1)->first();
+		$pegawaikeluarga = $this->pegawai->select('jml_kpegawai')->orderBy('tgl_insert', 'DESC')->limit(1)->first();
+		$pensiunkeluarga = $this->pegawai->select('jml_kpensiun')->orderBy('tgl_insert', 'DESC')->limit(1)->first();
 
 		$kelas = $this->kelas->selectCount('kelas_id')->first();
 		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
@@ -122,6 +112,17 @@ class Home extends BaseController
 			'konfigurasi' => $konfigurasi,
 		];
 		return view('front/agenda/vaksin', $data);
+	}
+
+	public function provider()
+	{
+		
+		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
+		$data = [
+			'title' => 'YAN HC JABAR',
+			'konfigurasi' => $konfigurasi,
+		];
+		return view('front/info/provider', $data);
 	}
 
 	public function detail_berita($slug_berita = null)

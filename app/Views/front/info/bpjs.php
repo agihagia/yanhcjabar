@@ -89,7 +89,7 @@
     </section><!-- End Frequently Asked Questions Section -->
     
 <section id="bpjstk" class="faqs">
-      <div class="container" data-aos="fade-up">
+      <div class="container">
         <div class="section-title">
           <h2>BPJS KETENAGAKERJAAN</h2>
         </div>

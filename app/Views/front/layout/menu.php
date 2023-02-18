@@ -14,22 +14,22 @@
         <strong> TOTAL PEGAWAI & PENSIUN </strong>
         <div class="row counters">
             <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up"><?= $pegawai['id'] ?></span>
+                <span data-toggle="counter-up"><?= $pegawai['jml_pegawai'] ?></span>
                 <p>Pegawai</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up"><?= $pegawaikeluarga['id'] ?></span>
+                <span data-toggle="counter-up"><?= $pegawaikeluarga['jml_kpegawai'] ?></span>
                 <p>Keluarga Pegawai</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up"><?= $pensiun['id'] ?></span>
+                <span data-toggle="counter-up"><?= $pensiun['jml_pensiun'] ?></span>
                 <p>Pensiun</p>
             </div>
 
             <div class="col-lg-3 col-6 text-center">
-                <span data-toggle="counter-up"><?= $pensiunkeluarga['id'] ?></span>
+                <span data-toggle="counter-up"><?= $pensiunkeluarga['jml_kpensiun'] ?></span>
                 <p>Keluarga Pensiun</p>
             </div>
 

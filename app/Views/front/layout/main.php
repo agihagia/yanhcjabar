@@ -56,10 +56,6 @@
           Informasi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="<?= base_url('home/tanggungan') ?>">- Perubahan Data Tanggungan</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= base_url('home/absensi') ?>">- ABSENSI Pegawai</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/bpjs') ?>">- BPJS Kesehatan & TK</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/syaratpensiun') ?>">- Persyaratan Pensiun</a>
@@ -67,11 +63,15 @@
           <a class="dropdown-item" href="<?= base_url('home/reskeskacamata') ?>">- Bantuan Kacamata</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/reskeskesehatan') ?>">- Restitusi Kesehatan</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<?= base_url('home/tanggungan') ?>">- Perubahan Data Tanggungan</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<?= base_url('home/absensi') ?>">- ABSENSI Pegawai</a>
         </div>
         </li>
         <li>
         <a class="dropdown-toggle" href="#agenda" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Agenda
+          Berita & Kegiatan
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?= base_url('home/healthtalk') ?>">Health Talk</a>

@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 
 class Modelpegawai extends Model
 {
-    protected $table      = 'data_pegawai';
+    protected $table      = 'rekap_dapeg';
     protected $primaryKey = 'id';
     protected $allowedFields = ['nis', 'nama', 'kelas_id', 'alamat', 'tgl_lahir', 'tmp_lahir', 'jenkel'];
     protected $column_order = array(null, null, 'nis', 'nama', 'kelas_id', 'alamat', 'tgl_lahir', 'tmp_lahir', 'jenkel', null);
