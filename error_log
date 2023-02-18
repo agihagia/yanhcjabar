@@ -1,0 +1,1104 @@
+[31-Mar-2021 02:35:26 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.3.0". You are running 7.2.34. in /home/vanq1976/public_html/sekolah/vendor/composer/platform_check.php on line 24
+[31-Mar-2021 02:35:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(71): require('/home/vanq1976/...')
+#3 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(61): composerRequire36af33176a7503a4347f35c79a607a3d('3917c79c5052b27...', '/home/vanq1976/...')
+#4 /home/vanq1976/public_html/sekolah/vendor/autoload.php(7): ComposerAutoloaderInit36af33176a7503a4347f35c79a607a3d::getLoader()
+#5 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(415): include('/home/vanq1976/...')
+#6 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(129): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php on line 85
+[31-Mar-2021 02:36:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(71): require('/home/vanq1976/...')
+#3 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(61): composerRequire36af33176a7503a4347f35c79a607a3d('3917c79c5052b27...', '/home/vanq1976/...')
+#4 /home/vanq1976/public_html/sekolah/vendor/autoload.php(7): ComposerAutoloaderInit36af33176a7503a4347f35c79a607a3d::getLoader()
+#5 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(415): include('/home/vanq1976/...')
+#6 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(129): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php on line 85
+[31-Mar-2021 02:37:23 Asia/Jakarta] PHP Deprecated:  Required parameter $userAgent follows optional parameter $body in /home/vanq1976/public_html/sekolah/system/HTTP/IncomingRequest.php on line 161
+[31-Mar-2021 02:37:23 Asia/Jakarta] PHP Deprecated:  Required parameter $from follows optional parameter $verbs in /home/vanq1976/public_html/sekolah/system/Router/RouteCollection.php on line 1017
+[31-Mar-2021 02:37:23 Asia/Jakarta] PHP Deprecated:  Required parameter $to follows optional parameter $verbs in /home/vanq1976/public_html/sekolah/system/Router/RouteCollection.php on line 1017
+[31-Mar-2021 02:37:23 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/vanq1976/public_html/sekolah/system/HTTP/IncomingRequest.php:161) in /home/vanq1976/public_html/sekolah/system/Debug/Exceptions.php:164
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/home/vanq1976/...', 164)
+#1 /home/vanq1976/public_html/sekolah/system/Debug/Exceptions.php(164): header('HTTP/2.0 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/Debug/Exceptions.php on line 164
+[31-Mar-2021 02:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\Autoloader\token_get_all() in /home/vanq1976/public_html/sekolah/system/Autoloader/FileLocator.php:173
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/Config/Config.php(150): CodeIgniter\Autoloader\FileLocator->getClassname()
+#1 /home/vanq1976/public_html/sekolah/system/Config/Config.php(83): CodeIgniter\Config\Config::createClass()
+#2 /home/vanq1976/public_html/sekolah/system/Common.php(155): CodeIgniter\Config\Config::get()
+#3 /home/vanq1976/public_html/sekolah/system/Config/BaseConfig.php(85): config()
+#4 /home/vanq1976/public_html/sekolah/system/Config/Config.php(124): CodeIgniter\Config\BaseConfig->__construct()
+#5 /home/vanq1976/public_html/sekolah/system/Config/Config.php(83): CodeIgniter\Config\Config::createClass()
+#6 /home/vanq1976/public_html/sekolah/system/Common.php(155): CodeIgniter\Config\Config::get()
+#7 /home/vanq1976/public_html/sekolah/system/bootstrap.php(179): config()
+#8 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#9 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/Autoloader/FileLocator.php on line 173
+[31-Mar-2021 02:38:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function json_decode() in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php:85
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php(117): Kint\Utils::composerGetExtras()
+#1 /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/init.php(54): Kint\Utils::composerSkipFlags()
+#2 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(71): require('/home/vanq1976/...')
+#3 /home/vanq1976/public_html/sekolah/vendor/composer/autoload_real.php(61): composerRequire36af33176a7503a4347f35c79a607a3d('3917c79c5052b27...', '/home/vanq1976/...')
+#4 /home/vanq1976/public_html/sekolah/vendor/autoload.php(7): ComposerAutoloaderInit36af33176a7503a4347f35c79a607a3d::getLoader()
+#5 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(415): include('/home/vanq1976/...')
+#6 /home/vanq1976/public_html/sekolah/system/Autoloader/Autoloader.php(129): CodeIgniter\Autoloader\Autoloader->discoverComposerNamespaces()
+#7 /home in /home/vanq1976/public_html/sekolah/vendor/kint-php/kint/src/Utils.php on line 85
+[27-May-2021 17:50:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[27-May-2021 17:50:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[27-May-2021 17:50:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[27-May-2021 17:50:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[27-May-2021 17:50:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[27-May-2021 20:52:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:39:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:39:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:39:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:39:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:40:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:44:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 08:59:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 09:56:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:55:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:57:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:57:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:58:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:19 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:22 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 21:59:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 22:01:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[28-May-2021 22:03:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 00:44:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 00:44:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 03:14:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 03:15:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 04:13:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 05:32:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:58:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 10:59:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 12:14:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 16:11:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[29-May-2021 17:26:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 12:35:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 12:35:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 12:35:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 12:35:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 12:35:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[30-May-2021 22:25:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[31-May-2021 04:01:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 02:08:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 04:08:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 11:25:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 11:33:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 11:34:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 16:39:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 16:45:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 16:45:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 16:45:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[01-Jun-2021 16:46:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 00:03:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 00:03:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 00:03:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 00:03:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 00:03:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 14:32:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 16:19:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[02-Jun-2021 21:00:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 00:48:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 00:48:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 00:48:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 00:48:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 05:43:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 10:53:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 10:53:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[03-Jun-2021 16:32:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[04-Jun-2021 00:50:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[04-Jun-2021 01:40:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[04-Jun-2021 14:14:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[04-Jun-2021 17:32:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[04-Jun-2021 21:44:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 03:07:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 10:19:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 11:23:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 11:23:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 11:45:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 14:12:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[05-Jun-2021 14:43:13 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 11:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 13:56:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 13:56:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 13:56:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 13:57:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 13:57:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 14:05:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 16:20:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 16:20:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 17:22:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 17:26:30 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[06-Jun-2021 17:26:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 12:51:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 12:51:11 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 12:51:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 12:56:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 12:56:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[07-Jun-2021 22:59:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[08-Jun-2021 00:47:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[08-Jun-2021 12:58:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[08-Jun-2021 12:58:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[08-Jun-2021 13:18:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[08-Jun-2021 23:56:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[09-Jun-2021 03:22:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[09-Jun-2021 07:56:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 08:39:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 08:39:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:14:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:14:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:14:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:14:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:14:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:07 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
+[10-Jun-2021 23:15:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function CodeIgniter\locale_set_default() in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php:184
+Stack trace:
+#0 /home/vanq1976/public_html/sekolah/system/bootstrap.php(181): CodeIgniter\CodeIgniter->initialize()
+#1 /home/vanq1976/public_html/sekolah/index.php(36): require('/home/vanq1976/...')
+#2 {main}
+  thrown in /home/vanq1976/public_html/sekolah/system/CodeIgniter.php on line 184
