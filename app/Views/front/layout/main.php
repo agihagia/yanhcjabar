@@ -43,7 +43,7 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center">
 
-            <a href="<?= base_url() ?>"><?= $konfigurasi['nama_web'] ?></a>
+            <b><a href="<?= base_url() ?>"><?= $konfigurasi['nama_web'] ?></a></b>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo mr-auto"><img src="<?= base_url() ?>/assets/front/assets/img/logo.png" alt="" class="img-fluid"></a> -->
             <?= $this->renderSection('navbar') ?>
