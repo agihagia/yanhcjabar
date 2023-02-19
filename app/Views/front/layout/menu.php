@@ -76,7 +76,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>TIM YAN HC JABAR - BANDUNG</h2>
+            <h2>TIM</h2>
         </div>
         <div class="row justify-content-center align-items-left">
         <div class="col-lg-6 col-md-6 footer-contact">
