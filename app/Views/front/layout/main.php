@@ -84,7 +84,7 @@
         <li><a href="#footer">Contact</a></li>
     </ul>
 </nav><!-- .nav-menu -->
-    <a href="<?= base_url('home/provider') ?>" class="get-started-btn">List Provider Kesehatan</a>
+    <a href="<?= base_url('home/provider') ?>" class="get-started-btn">Provider Kesehatan</a>
         </div>
     </header><!-- End Header -->
     <main id="main">
