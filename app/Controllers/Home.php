@@ -147,17 +147,6 @@ class Home extends BaseController
 		return view('front/info/absensi', $data);
 	}
 
-	public function provider()
-	{
-		
-		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
-		$data = [
-			'title' => 'YAN HC JABAR',
-			'konfigurasi' => $konfigurasi,
-		];
-		return view('front/info/provider', $data);
-	}
-
 	public function detail_berita($slug_berita = null)
 	{
 		if (!isset($slug_berita)) return redirect()->to('/home#berita');
