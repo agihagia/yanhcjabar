@@ -34,7 +34,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
    <!-- Vendor CSS Files -->
-   <link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <!--link href="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"-->
 </head>
 
 <body>
@@ -125,12 +125,12 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script src="<?= base_url() ?>/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="<?= base_url() ?>/assets/vendor/php-email-form/validate.js"></script>
+    <!--script src="<?= base_url() ?>/assets/vendor/purecounter/purecounter_vanilla.js"></!--script>
+    <!--script src="<?= base_url() ?>/assets/vendor/swiper/swiper-bundle.min.js"></!--script>
+    <!--script src="<?= base_url() ?>/assets/vendor/php-email-form/validate.js"></!--script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!--script src="assets/js/main.js"></!--script>
 
 
     <!-- Vendor JS Files -->
