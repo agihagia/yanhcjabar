@@ -37,7 +37,7 @@
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-                <h4>Semua Pegawai Terdaftar sebagai peserta BPJS Kesehatan</h4>
+                <h4>Pegawai Terdaftar sebagai peserta BPJS Kesehatan</h4>
                 <br>
                 <p>Untuk melihat status Keanggotan dan Tanggungan bisa dilihat melalui : </p>
                 <p>
@@ -107,7 +107,7 @@
 
           <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-                <h4>Semua Pegawai Terdaftar sebagai peserta BPJS KETENAGAKERJAAN</h4>
+                <h4>Pegawai Terdaftar sebagai peserta BPJS KETENAGAKERJAAN</h4>
                 <ul>
                     <b>
                     <li> BPJS JHT (JAMINAN HARI TUA)</li>
