@@ -97,7 +97,7 @@
                 <p>
                 <strong>Lokasi Kerja:</strong> UID JAWA BARAT<br>
                     <?= $konfigurasi['alamat'] ?><br>
-                    <strong>Telp:</strong> 022-7251234 ext 1252<br>
+                    <strong>Telp:</strong> 022-4230747 ext 1252<br>
                     <strong>Whatsapp:</strong> <?= $konfigurasi['whatsapp'] ?><br>
                     <strong>Email:</strong> <?= $konfigurasi['email'] ?> <br>
                 </p>
