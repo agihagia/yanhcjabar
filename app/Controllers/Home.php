@@ -70,6 +70,17 @@ class Home extends BaseController
 		return view('front/info/reskeskacamata', $data);
 	}
 
+	public function reskeskesehatan()
+	{
+		
+		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
+		$data = [
+			'title' => 'YAN HC JABAR',
+			'konfigurasi' => $konfigurasi,
+		];
+		return view('front/info/reskeskesehatan', $data);
+	}
+
 	public function syaratpensiun()
 	{
 		
