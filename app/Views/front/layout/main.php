@@ -165,7 +165,7 @@
 
         // For each orgchart box, provide the name, manager, and tooltip to show.
         data.addRows([
-          [{'v':'IIN', 'f':'IIN<div style="color:red; font-style:arial; font-size:70%">VP REG JAMALI</div>'},
+          [{'v':'IIN', 'f':'IIN<div style="color:red; font-style:arial; font-size:70%">PLT VP REG JAMALI</div>'},
            '', 'IIN INDRIYANI FITRIA - PLT VP PELAYANAN HC REGIONAL JAMALI'],
           [{'v':'ANNE', 'f':'ANNE<div style="color:red; font-style:arial; font-size:70%">MANAGER JABAR</div>'},
            'IIN', 'ANNE SETIYANI - MANAGER YAN HC JABAR'],
