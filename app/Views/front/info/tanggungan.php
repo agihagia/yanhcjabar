@@ -173,11 +173,7 @@
               </ul>
             </div>
             <div class="card-body">
-            <p><i class="ri-mail-check-fill" style="color: red;"></i><b> Surat Permohonan disampaikan melalui AMS kepada :</b></p></i>
-            <p>VP Pelayanan HC Regional</p>
-            </div>
-            <div class="card-body">
-            <p><i class="ri-mail-check-fill" style="color: red;"></i><b> Berkas Asli (Hardcopy) Dikirim Langsung Ke YAN HC & di scan di email ke</b></p></i>
+            <p><i class="ri-mail-check-fill" style="color: red;"></i><b> Permohonan disampaikan melalui email ke</b></p></i>
             <p><b>Email </b> : yan_hc_jabar@pln.co.id (menggunakan email Korporat)</p>
             <p><b>Subject</b> : [TANGGUNGAN] NIP_Persyaratan Perubahan Data Tanggungan Pasangan</p>
             </div>
