@@ -56,15 +56,16 @@
           Informasi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="<?= base_url('home/bpjs') ?>">- BPJS Kesehatan & TK</a>
+          
+          <a class="dropdown-item" href="<?= base_url('home/tanggungan') ?>">- Perubahan Data Tanggungan</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/syaratpensiun') ?>">- Persyaratan Pensiun</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<?= base_url('home/bpjs') ?>">- BPJS Kesehatan & TK</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/reskeskacamata') ?>">- Bantuan Kacamata</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/reskeskesehatan') ?>">- Restitusi Kesehatan</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<?= base_url('home/tanggungan') ?>">- Perubahan Data Tanggungan</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="<?= base_url('home/absensi') ?>">- ABSENSI Pegawai</a>
         </div>

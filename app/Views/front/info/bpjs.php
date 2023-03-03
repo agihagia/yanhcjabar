@@ -150,7 +150,7 @@
           </div>
           <div id="collapseThree1" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-                 <p><b>Email    : </b>yan_hc_jabar@pln.co.id <b>(menggunakan email Korporat)</b></p>
+                 <p><b>Email   : </b>yan_hc_jabar@pln.co.id <b>(menggunakan email Korporat)</b></p>
                 <p><b>Subject  : </b>[BPJS TK] NIP - Perubahan Data peserta</p>
           </div>
         </div>
