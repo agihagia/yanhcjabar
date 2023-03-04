@@ -81,7 +81,7 @@
           <li><a href="<?= base_url('home/timhc') ?>">Tim HC JABAR</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" href="#informasi" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Informasi
+              INFORMASI
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -100,7 +100,7 @@
           </li>
           <li>
             <a class="dropdown-toggle" href="#agenda" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Berita & Kegiatan
+              BERITA & KEGIATAN
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="<?= base_url('home/healthtalk') ?>">Health Talk</a>
@@ -110,10 +110,10 @@
               <a class="dropdown-item" href="<?= base_url('home/vaksin') ?>">Vaksin</a>
             </div>
           </li>
-          <li><a href="../#footer">Contact</a></li>
+          <li><a href="../#footer">CONTACT</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-      <a href="<?= base_url('provider') ?>" class="get-started-btn">Provider Kesehatan</a>
+      <a href="<?= base_url('provider') ?>" class="get-started-btn">PROVIDER KESEHATAN</a>
     </div>
   </header><!-- End Header -->
   <main id="main">
