@@ -66,7 +66,7 @@
 </head>
 
 <body>
-
+<div class="col-12">
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
@@ -166,7 +166,8 @@
     <!--script src="<?= base_url() ?>/assets/vendor/php-email-form/validate.js"></!--script>
 
   <!-- Template Main JS File -->
-  <!--script src="assets/js/main.js"></!--script>
+  <!--script src="assets/js/main.js"></!--script-->
+  </div>
 </body>
 
 </html>
