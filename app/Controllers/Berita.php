@@ -9,7 +9,7 @@ class Berita extends BaseController
         $data = [
             'title' => 'Berita'
         ];
-        return view('auth/berita/index', $data);
+        return view('auth/berita/', $data);
     }
 
     public function getdata()

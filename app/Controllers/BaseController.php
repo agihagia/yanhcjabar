@@ -32,6 +32,7 @@ use App\Models\Modelkonfigurasi;
 use App\Models\Modelpengumuman;
 use App\Models\Modelspp;
 use App\Models\Modeluser;
+use App\Models\Modelprovider;
 
 class BaseController extends Controller
 {
@@ -74,5 +75,6 @@ class BaseController extends Controller
 		$this->kelulusan = new Modelkelulusan($request);
 		$this->konfigurasi = new Modelkonfigurasi;
 		$this->user = new Modeluser;
+		$this->provider = new Modelprovider;
 	}
 }

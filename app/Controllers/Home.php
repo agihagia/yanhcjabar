@@ -70,6 +70,17 @@ class Home extends BaseController
 		return view('front/info/reskeskacamata', $data);
 	}
 
+	public function timhc()
+	{
+		
+		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
+		$data = [
+			'title' => 'YAN HC JABAR',
+			'konfigurasi' => $konfigurasi,
+		];
+		return view('front/info/timhc', $data);
+	}
+
 	public function reskeskesehatan()
 	{
 		
@@ -123,17 +134,6 @@ class Home extends BaseController
 			'konfigurasi' => $konfigurasi,
 		];
 		return view('front/agenda/vaksin', $data);
-	}
-
-	public function provider()
-	{
-		
-		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
-		$data = [
-			'title' => 'YAN HC JABAR',
-			'konfigurasi' => $konfigurasi,
-		];
-		return view('front/info/provider', $data);
 	}
 
 	public function tanggungan()

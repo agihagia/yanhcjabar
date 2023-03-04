@@ -71,21 +71,6 @@
         </div>
       </div>
     </section><!-- End Features Section -->
-
-<section id="tim" class="tim">
-    <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-            <h2>TIM</h2>
-        </div>
-        <div class="row justify-content-center align-items-left">
-        <div class="col-lg-6 col-md-6 footer-contact">
-        <div id="chart_div" style="height: 100%; width: 100%; align: left"></div>
-        </div>
-        </div>
-
-    </div>
-</section>
 <?= $this->endSection('isi') ?>
 <?= $this->section('contact') ?>
 <footer id="footer">

@@ -6,7 +6,6 @@
     width: 100%;
   }
 </style>
-
 <?= $this->extend('front/layout/main') ?>
 <?= $this->section('mainbg') ?>
 <!-- ======= Breadcrumbs ======= -->
