@@ -3,8 +3,8 @@
         <tr>
             <th>#</th>
             <th>Provider</th>
-            <th>Layanan</th>
             <th>Type</th>
+            <th>Layanan</th>
             <th>Kota</th>
             <th>Alamat</th>
         </tr>
@@ -18,8 +18,8 @@
             <tr>
                 <td><?= $nomor ?></td>
                 <td><?= esc($data['nama_provider']) ?></td>
-                <td><?= esc($data['Layanan']) ?></td>
                 <td><?= esc($data['provider_type']) ?></td>
+                <td><?= esc($data['Layanan']) ?></td>
                 <td><?= esc($data['kota']) ?></td>
                 <td><?= esc($data['alamat']) ?></td>
             </tr>
