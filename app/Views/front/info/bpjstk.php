@@ -12,7 +12,6 @@
 <!-- ======= Breadcrumbs ======= -->
 <div class="breadcrumbs" data-aos="fade-in">
     <div class="container">
-        <h2>BPJS KETENAGAKERJAAN</h2>
     </div>
 </div><!-- End Breadcrumbs -->
 
