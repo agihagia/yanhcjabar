@@ -66,7 +66,6 @@
 </head>
 
 <body>
-  <div class="col-12">
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
@@ -161,7 +160,6 @@
 
   <!-- Template Main JS File -->
     <!--script src="assets/js/main.js"></!--script-->
-  </div>
 </body>
 
 </html>
