@@ -80,7 +80,6 @@ $konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 <!-- ======= Breadcrumbs ======= -->
 <div class="breadcrumbs" data-aos="fade-in">
   <div class="container">
-    <h2>PROVIDER KESEHATAN WILAYAH JABAR</h2>
   </div>
 </div><!-- End Breadcrumbs -->
 
