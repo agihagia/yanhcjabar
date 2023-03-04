@@ -80,6 +80,7 @@ $konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 <!-- ======= Breadcrumbs ======= -->
 <div class="breadcrumbs" data-aos="fade-in">
   <div class="container">
+    <h2>PROVIDER KESEHATAN WILAYAH JABAR</h2>
   </div>
 </div><!-- End Breadcrumbs -->
 
@@ -89,7 +90,7 @@ $konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 <section id="faq" class="faq">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>List Provider Kesehatan</h2>
+      <h2>List Provider Kesehatan Wilayah Jawa Barat</h2>
     </div>
     <div class="container">
     <div class="viewdata">
