@@ -14,6 +14,7 @@
             <h2><?= $konfigurasi['deskripsi'] ?> </h2>
         </div>
     </section><!-- End Hero -->
+    <br>
 <?= $this->endSection('mainbg') ?>
 <?= $this->section('isi') ?>
 <!-- ======= Counts Section ======= -->
