@@ -1,5 +1,13 @@
 <?= $this->extend('front/layout/main') ?>
 <?= $this->section('mainbg') ?>
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs" data-aos="fade-in">
+    <div class="container">
+    </div>
+</div><!-- End Breadcrumbs -->
+
+<?= $this->endSection('mainbg') ?>
+<?= $this->section('mainbg') ?>
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-content-center align-items-center">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
