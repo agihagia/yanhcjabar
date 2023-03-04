@@ -34,7 +34,7 @@
             </h5>
           </div>
 
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
                 <h3>Semua Pegawai Terdaftar sebagai peserta BPJS Kesehatan</h3>
                 <br>
@@ -104,7 +104,7 @@
             </h5>
           </div>
 
-          <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
                 <h3>Semua Pegawai Terdaftar sebagai peserta BPJS KETENAGAKERJAAN</h3>
                 <ul>
