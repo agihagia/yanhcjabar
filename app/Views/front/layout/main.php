@@ -77,7 +77,7 @@
         <nav class="nav-menu d-none d-lg-block">
           <ul>
             <li class="active"><a href="/">HOME</a></li>
-            <li><a href="<?= base_url('home/timhc') ?>">Tim HC JABAR</a></li>
+            <!--li><a href="<?= base_url('home/timhc') ?>">Tim HC JABAR</a></!--li-->
             <li class="dropdown">
               <a class="dropdown-toggle" href="#informasi" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 INFORMASI
