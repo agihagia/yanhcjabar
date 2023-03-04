@@ -120,23 +120,10 @@
       <?= $this->renderSection('mainbg') ?>
     </main><!-- End #main -->
 
-    <div class="content">
-
-
-      <div class="row">
-        <div class="col-12">
-          <div class="card m-b-30">
-            <div class="card-body">
-              <?= $this->renderSection('isi') ?>
-              <?= $this->renderSection('script') ?>
-            </div>
-          </div>
-        </div> <!-- end col -->
-      </div> <!-- end row -->
-      <!-- container-fluid -->
-
-    </div>
-
+    <main id="main">
+        <?= $this->renderSection('isi') ?>
+        <?= $this->renderSection('script') ?>
+    </main><!-- End #main -->
 
     <main id="contact">
       <?= $this->renderSection('contact') ?>

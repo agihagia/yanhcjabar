@@ -87,15 +87,17 @@ $konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 <?= $this->endSection('mainbg') ?>
 <?= $this->section('isi') ?>
 
-<div class="col-12">
-<div class="container" data-aos="fade-up">
+<section id="faq" class="faq">
+  <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>List Provider</h2>
+      <h2>List Provider Kesehatan</h2>
     </div>
-<div class="viewdata">
-</div>
-</div>
-</div>
+    <div class="container">
+    <div class="viewdata">
+    </div>
+    </div><!-- End Breadcrumbs -->
+    </section>
+
 <script>
     function listprovider() {
         $.ajax({
