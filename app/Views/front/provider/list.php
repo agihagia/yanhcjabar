@@ -31,10 +31,10 @@
     $(document).ready(function() {
         $('#listprovider').DataTable({
             "destroy": true,
-            "iDisplayLength": 50,
+            "iDisplayLength": 15,
             "lengthMenu": [
-                [50, 100, -1],
-                [50, 100, "All"]
+                [15, 50, 100, -1],
+                [15, 50, 100, "All"]
             ],
             responsive: {
                 details: true
@@ -46,7 +46,12 @@
                     extend: "copy"
                 },
                 {
-                    extend: "excel"
+                    extend: "excel",
+                    title: 'PLN Provider Kesehatan Jawa Barat'
+                },,
+                {
+                    extend: "pdf",
+                    title: 'PLN Provider Kesehatan Jawa Barat'
                 },
             ]
         });
