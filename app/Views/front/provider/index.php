@@ -89,7 +89,7 @@ $konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 <section id="faq" class="faq">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>List Provider Kesehatan Wilayah Jawa Barat</h2>
+      <h2>Provider Kesehatan Wilayah Jabar</h2>
     </div>
     <div class="container">
     <div class="viewdata">
