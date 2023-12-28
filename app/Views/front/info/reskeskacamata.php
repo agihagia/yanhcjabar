@@ -42,11 +42,11 @@
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Lensa & Bingkai Kacamata yang diberikan Pertama Kali untuk Pegawai</li>
+                <li>Lensa & Bingkai Kacamata yang diberikan untuk pengajuan Pertama Kali</li>
                 <ul>
                   <li>Dioptri Lensa Paling Sedikit minus / plus / silindris -> 0,50 (nol koma lima puluh)</li>
                 </ul>
-                <li>Penggantian Lensa Kacamata Selanjutnya untuk Pegawai</li>
+                <li>Penggantian Lensa Kacamata Selanjutnya (kedua,ketiga,dst) untuk Pegawai</li>
                 <ul>
                   <li>Lensa Kacamata selanjutnya jika terdapat perubahan dioptri lensa minus / plus / silindris -> 0,25 (nol koma dua lima)</li>
                 </ul>
@@ -60,7 +60,7 @@
                 </ul>
                 <li>Penggantian Lensa bingkai Kacamata untuk Pensiun</li>
                 <ul>
-                  <li>Penggantian bingkai kacamata diberikan 1 (satu) Kali dengan ketentuan Dioptri Lensa Paling Sedikit minus / plus / silindris -> 0,50 (nol koma lima puluh)</li>
+                  <li>Penggantian bingkai kacamata diberikan 1 (satu) Kali setelah pensiun dengan ketentuan Dioptri Lensa Paling Sedikit minus / plus / silindris -> 0,50 (nol koma lima puluh)</li>
                 </ul>
               </ul>
             </div>
@@ -77,7 +77,7 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Bingkai dan Lensa Kacamata Maksimal Rp. 5.000.000,- (lima juta rupiah)</li>
+                <li>Bingkai dan Lensa Kacamata</li>
                 <ul>
                   <li>Bingkai Kacamata Maksimal Rp 2.500.000,- (dua juta lima ratus)</li>
                   <li>Lensa Kacamata Maksimal Rp 2.500.000,- (dua juta lima ratus)</li>
@@ -97,7 +97,7 @@
               <div class="card-body">
                 <p><b>Penggantian Biaya Pembelian Lensa dan Bingkai diberikan secara Restitusi/reimbursement</b></p>
                 <ul>
-                  <li>Melampirkan Dokumen Hasil Ukuran Refraksi dari Dokter Spesialis mata atau optik</li>
+                  <li>Melampirkan Dokumen Hasil Ukuran Refraksi dari Dokter Spesialis mata atau optik yg memiliki kualitas baik</li>
                   <li>Melampirkan Kwitansi asli berstempel basah dan bertandatangan (materai 10rb untuk nominal Rp 5.000.000,- keatas)</li>
                 </ul>
               </div>
