@@ -143,6 +143,10 @@
               </div>
               <br>
               <button class="btn btn-primary btnsimpan"><i class="fa fa-paper-plane"></i> HITUNG</button>
+
+              <br>
+              *Grade Masih diabaikan <br>
+              *Input Tarif Masih Mengacu kepada Rp 435.000 atau Rp 625.000
             </div>
             <?= form_close() ?>
           </div>
