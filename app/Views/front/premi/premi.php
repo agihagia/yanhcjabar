@@ -24,7 +24,10 @@
     <div class="section-title">
       <h2>PAY FOR POSITION KHUSUS</h2>
     </div>
-
+    <i class="ri-mail-check-fill" style="color: red;"></i> <b>Dokumen :</b></p></i>  
+              <ul>
+                <li>Surat Pernyataan , Template Daftar Penerima => <a href="https://drive.google.com/drive/folders/16tavdb4el041-mkIIjGPr-F2rcObJfwa?usp=sharing" target="_blank">Download</a></li>
+              </ul>
     <div class="faq-list" data-aos="zoom-in" data-aos-delay="100">
       <div id="accordion">
         <div class="card">
