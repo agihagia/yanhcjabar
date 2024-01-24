@@ -162,7 +162,7 @@
                  HARI REALISASI : 
                   <label id="hasil_hari"></label>
                   <br>
-                  HARI REALISASI :
+                  REALISASI :
                   <label id="hasil_realisasi"></label>
                   <br>
                   <label id="hasil_rp" style="color:red;font-size:40px;"></label>
