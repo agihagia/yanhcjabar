@@ -264,4 +264,134 @@ class Home extends BaseController
 			return redirect()->to('kelulusan');
 		}
 	}
+	
+	public function premi()
+	{
+		
+		log_message('error','kesisnissss');
+		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
+		$data = [
+			'title' => 'YAN HC JABAR',
+			'konfigurasi' => $konfigurasi,
+		];
+		return view('front/premi/premi', $data);
+	}
+
+	public function premisubmit()
+    {
+		log_message('error','kadieu');
+
+        if ($this->request->isAJAX()) {
+            $validation = \Config\Services::validation();
+            $valid = $this->validate([
+                'grade' => [
+                    'label' => 'grade',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'tarif' => [
+                    'label' => 'tarif',
+                    'rules' => 'required|alpha_numeric_space',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                        'alpha_numeric_space' => 'Tidak boleh mengandung karakter unik',
+                    ]
+                ],
+                'harikerjapln' => [
+                    'label' => 'harikerjapln',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'koefisien' => [
+                    'label' => 'koefisien',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'harikerja' => [
+                    'label' => 'harikerja',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'harilibur' => [
+                    'label' => 'harilibur',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'hariagama' => [
+                    'label' => 'hariagama',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+            ]);
+            if (!$valid) {
+                $msg = [
+                    'error' => [
+                        'grade'      => $validation->getError('grade'),
+                        'tarif'     => $validation->getError('tarif'),
+                        'harikerjapln'          => $validation->getError('harikerjapln'),
+                        'koefisien'          => $validation->getError('koefisien'),
+                        'harikerja'     => $validation->getError('harikerja'),
+                        'harilibur'      => $validation->getError('harilibur'),
+                        'hariagama'      => $validation->getError('hariagama'),
+                    ]
+                ];
+            } else {
+                /*$simpandata = [
+                    'grade'     => $this->request->getVar('grade'),
+                    'tarif'    => $this->request->getVar('tarif'),
+                    'harikerjapln'         => $this->request->getVar('harikerjapln'),
+                    'koefisien'         => $this->request->getVar('koefisien'),
+                    'harikerja'    => $this->request->getVar('harikerja'),
+                    'harilibur'     => $this->request->getVar('harilibur'),
+                    'hariagama'     => $this->request->getVar('hariagama'),
+                ];*/
+				$hitung_kerja = $this->request->getVar('harikerja') * 1;
+				$hitung_libur = $this->request->getVar('harilibur') * 1.5;
+				$hitung_agama = $this->request->getVar('hariagama') * 4;
+
+				$total = ($hitung_kerja + $hitung_libur + $hitung_agama);
+				//log_message('error',$total);
+
+				$realisasi = $total/$this->request->getVar('harikerjapln');
+				$tarif = $this->request->getVar('tarif');
+				$rp_realisasi= round(($realisasi * $this->request->getVar('koefisien'))*$tarif);
+
+				if($rp_realisasi > $tarif ) {
+					$rp_realisasi=$tarif;
+				}
+
+				$persen = round($rp_realisasi/ $tarif * 100).'%';
+
+				//log_message('error','realisasi : '.$realisasi);
+				//log_message('error','tarif : '.$tarif);
+				//log_message('error','rp_realiasi : '.$rp_realisasi);
+
+                $konfigurasi_id = $this->request->getVar('konfigurasi_id');
+                //$this->konfigurasi->update($konfigurasi_id, $simpandata);
+                $msg = [
+                    'sukses' => number_format($rp_realisasi,0),
+					'realisasi_hari' => '('.$this->request->getVar('harikerja').' X 1) + ('.$this->request->getVar('harilibur').' X 1,5) + ('.$this->request->getVar('hariagama').' X 4) = '.$total,
+					'realisasi' => '('.$total.'/'.$this->request->getVar('harikerjapln').') X '.$this->request->getVar('koefisien').' X '.$tarif.' = '. number_format($rp_realisasi,0),
+					'rp_realisasi' => $rp_realisasi,
+					'persen' => $persen
+					
+                ];
+				//$a = 'DATA||' . $kode_hc . '||' . $tgl_tagihan . '||' . $filter_kode_vendor . '||' . $filter_nama_vendor . '||' . $filter_no_tagihan . '||' . $filter_kode_vendor_sap . '||' . $aktif;
+		        //$this->session->set_flashdata('data', $a);
+            }
+            echo json_encode($msg);
+        }
+    }
 }

@@ -45,6 +45,10 @@
   <script src="<?= base_url() ?>/assets/front/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="<?= base_url() ?>/assets/front/assets/vendor/aos/aos.js"></script>
 
+  <!-- Sweet-Alert  -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>/assets/front/assets/js/main.js"></script>
   <script>
@@ -95,6 +99,8 @@
                 <a class="dropdown-item" href="<?= base_url('home/reskeskesehatan') ?>">- Restitusi Kesehatan</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="<?= base_url('home/absensi') ?>">- ABSENSI Pegawai</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="<?= base_url('home/premi') ?>">- P2-1B Khusus</a>
               </div>
             </li>
             <li>
