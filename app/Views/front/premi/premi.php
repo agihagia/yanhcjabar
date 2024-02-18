@@ -24,10 +24,10 @@
     <div class="section-title">
       <h2>PAY FOR POSITION KHUSUS</h2>
     </div>
-    <i class="ri-mail-check-fill" style="color: red;"></i> <b>Dokumen :</b></p></i>  
-              <ul>
-                <li>Surat Pernyataan , Template Daftar Penerima => <a href="https://drive.google.com/drive/folders/16tavdb4el041-mkIIjGPr-F2rcObJfwa?usp=sharing" target="_blank">Download</a></li>
-              </ul>
+    <i class="ri-mail-check-fill" style="color: red;"></i> <b>Dokumen :</b></p></i>
+    <ul>
+      <li>Surat Pernyataan , Template Daftar Penerima => <a href="https://drive.google.com/drive/folders/1FJ2j2QicGmX9kaf1SteJYTy8okIC5c4i?usp=drive_link" target="_blank">Download</a></li>
+    </ul>
     <div class="faq-list" data-aos="zoom-in" data-aos-delay="100">
       <div id="accordion">
         <div class="card">
@@ -91,20 +91,20 @@
               <hr>
               <input type="hidden" class="form-control" id="konfigurasi_id" value="<?= $konfigurasi_id ?>" name="konfigurasi_id" readonly>
               <div class="row">
-                <div class="form-group col-md-2 col-12">
+                <!--div class="form-group col-md-2 col-12">
                   <label> <i class="mdi mdi-currency-usd"></i>
                     Grade
                   </label>
                   <input type="text" class="form-control" id="grade" name="grade" onkeypress="return numberOnly(event)" minlength="1" value="<?= esc($grade) ?>" placeholder="Grade" required>
-             </div>
+                </div>
                 <div class="form-group col-md-3 col-12">
                   <label> <i class="mdi mdi-currency-usd"></i>
                     Tarif Grade
                   </label>
-                  <input type="text" class="form-control" id="tarif" name="tarif"  minlength="1" value="<?= esc($tarif) ?>" placeholder="Rp Tarif Grade...">
+                  <input type="text" class="form-control" id="tarif" name="tarif" minlength="1" value="<?= esc($tarif) ?>" placeholder="Rp Tarif Grade...">
                   <div class="invalid-feedback errorNama">
                   </div>
-             </div>
+                </div-->
 
                 <div class="form-group col-md-3 col-12">
                   <label> <i class="mdi mdi-alarm"></i>
@@ -118,7 +118,7 @@
                     Koefisien Unit
                   </label>
                   <input type="text" class="form-control" id="koefisien" name="koefisien" onkeypress="return numberOnly(event)" minlength="1" value="1" required>
-                
+
                 </div>
               </div><i class="mdi mdi-calculator"></i> Realisasi
               <hr>
@@ -142,14 +142,37 @@
                     Hari Raya Keagamaan
                   </label>
                   <input type="text" class="form-control" id="hariagama" name="hariagama" onkeypress="return numberOnly(event)" minlength="1" value="<?= esc($harikerja) ?>" required>
+                </div>
               </div>
+              <i class="mdi mdi-calculator"></i> Realisasi Menggantikan
+              <hr>
+              <div class="row">
+                <div class="form-group col-md-3 col-12">
+                  <label> <i class="mdi mdi-alarm"></i>
+                    Hari Kerja
+                  </label>
+                  <input type="text" class="form-control" id="harikerja2" name="harikerja" onkeypress="return numberOnly(event)" minlength="1" value="<?= esc($harikerja) ?>" required>
+                </div>
+
+                <div class="form-group col-md-3 col-12">
+                  <label> <i class="mdi mdi-alarm"></i>
+                    Hari Libur
+                  </label>
+                  <input type="text" class="form-control" id="harilibur2" name="harilibur" onkeypress="return numberOnly(event)" minlength="1" value="<?= esc($harikerja) ?>" required>
+                </div>
+
+                <div class="form-group col-md-3 col-12">
+                  <label> <i class="mdi mdi-alarm"></i>
+                    Hari Raya Keagamaan
+                  </label>
+                  <input type="text" class="form-control" id="hariagama2" name="hariagama" onkeypress="return numberOnly(event)" minlength="1" value="<?= esc($harikerja) ?>" required>
+                </div>
               </div>
               <br>
               <button class="btn btn-primary btnsimpan"><i class="fa fa-paper-plane"></i> HITUNG</button>
 
               <br>
-              *Grade Masih diabaikan <br>
-              *Input Tarif Masih Mengacu kepada Rp 435.000 atau Rp 625.000
+              *Hari Raya Keagamaan (Nyepi, Natal, Idul Fitri,Waisak,Imlek)
             </div>
             <?= form_close() ?>
           </div>
@@ -160,21 +183,22 @@
               <i class="mdi mdi-image-filter-hdr"></i> Hasil Hitung <br>
               <hr>
               <div class="form-group text-center">
-              <div class="row">
-                <div class="form-group col-md-6 col-12">
-                 HARI REALISASI : 
-                  <label id="hasil_hari"></label>
-                  <br>
-                  REALISASI :
-                  <label id="hasil_realisasi"></label>
-                  <br>
-                  <label id="hasil_rp" style="color:red;font-size:40px;"></label>
-                  <br>
-                  <label id="persen" style="color:red;font-size:20;"></label>
-             </div>
-             </div>
-            
-            </div>
+                <div class="row">
+                  <div class="form-group col-md-6 col-12">
+                    HARI REALISASI :
+                    <label id="hasil_hari"></label>
+                    <br>
+                    REALISASI :
+                    <label id="hasil_realisasi"></label>
+                    <br>
+                    KOEF PENGALI :
+                    <label id="hasil_rp" style="color:red;font-size:40px;"></label>
+                    <br>
+                    <label id="rp_realisasi_max" style="color:red;font-size:20;"></label>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
@@ -184,55 +208,55 @@
 </div>
 
 <script>
-    $('.formhitung').submit(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type: "post",
-            url: $(this).attr('action'),
-            data: {
-                konfigurasi_id: $('input#konfigurasi_id').val(),
-                grade: $('input#grade').val(),
-                tarif: $('input#tarif').val(),
-                harikerjapln: $('input#harikerjapln').val(),
-                koefisien: $('input#koefisien').val(),
-                harikerja: $('input#harikerja').val(),
-                harilibur: $('input#harilibur').val(),
-                hariagama: $('input#hariagama').val(),
-            },
-            dataType: "json",
-            beforeSend: function() {
-                $('.btnsimpan').attr('disable', 'disable');
-                $('.btnsimpan').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> <i>Loading...</i>');
-            },
-            complete: function() {
-                $('.btnsimpan').removeAttr('disable', 'disable');
-                $('.btnsimpan').html('<i class="fa fa-paper-plane"></i> HITUNG');
-            },
-            success: function(response) {
-                if (response.error) {
-                    if (response.error.tarif) {
-                        $('#tarif').addClass('is-invalid');
-                        $('.errorNama').html(response.error.tarif);
-                    } else {
-                        $('#tarif').removeClass('is-invalid');
-                        $('.errorNama').html('');
-                    }
-                } else {
-                    Swal.fire({
-                        title: "Rupiah Premi",
-                        text: response.sukses,
-                        icon: "success",
-                        showConfirmButton: true
-                    });
-                    
-                    $('#hasil_hari').text(response.realisasi_hari);
-                    $('#hasil_realisasi').text(response.realisasi);
-                    $('#hasil_rp').text(response.rp_realisasi);
-                    $('#persen').text("(" +response.persen + ")");
-                }
-            }
-        });
-    })
+  $('.formhitung').submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+      type: "post",
+      url: $(this).attr('action'),
+      data: {
+        konfigurasi_id: $('input#konfigurasi_id').val(),
+        harikerjapln: $('input#harikerjapln').val(),
+        koefisien: $('input#koefisien').val(),
+        harikerja: $('input#harikerja').val(),
+        harilibur: $('input#harilibur').val(),
+        hariagama: $('input#hariagama').val(),
+        harikerja2: $('input#harikerja2').val(),
+        harilibur2: $('input#harilibur2').val(),
+        hariagama2: $('input#hariagama2').val(),
+      },
+      dataType: "json",
+      beforeSend: function() {
+        $('.btnsimpan').attr('disable', 'disable');
+        $('.btnsimpan').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> <i>Loading...</i>');
+      },
+      complete: function() {
+        $('.btnsimpan').removeAttr('disable', 'disable');
+        $('.btnsimpan').html('<i class="fa fa-paper-plane"></i> HITUNG');
+      },
+      success: function(response) {
+        if (response.error) {
+          if (response.error.tarif) {
+            $('#tarif').addClass('is-invalid');
+            $('.errorNama').html(response.error.tarif);
+          } else {
+            $('#tarif').removeClass('is-invalid');
+            $('.errorNama').html('');
+          }
+        } else {
+          Swal.fire({
+            title: "Koefisien Pengali Premi",
+            text: response.sukses,
+            icon: "success",
+            showConfirmButton: true
+          });
+
+          $('#hasil_hari').text(response.realisasi_hari);
+          $('#hasil_realisasi').text(response.realisasi);
+          $('#hasil_rp').text(response.rp_realisasi_max);
+        }
+      }
+    });
+  })
 </script>
 
 <?= $this->endSection('isi') ?>

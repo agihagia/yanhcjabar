@@ -267,8 +267,6 @@ class Home extends BaseController
 	
 	public function premi()
 	{
-		
-		log_message('error','kesisnissss');
 		$konfigurasi = $this->konfigurasi->orderBy('konfigurasi_id')->first();
 		$data = [
 			'title' => 'YAN HC JABAR',
@@ -279,26 +277,9 @@ class Home extends BaseController
 
 	public function premisubmit()
     {
-		log_message('error','kadieu');
-
-        if ($this->request->isAJAX()) {
+		if ($this->request->isAJAX()) {
             $validation = \Config\Services::validation();
             $valid = $this->validate([
-                'grade' => [
-                    'label' => 'grade',
-                    'rules' => 'required',
-                    'errors' => [
-                        'required' => '{field} tidak boleh kosong',
-                    ]
-                ],
-                'tarif' => [
-                    'label' => 'tarif',
-                    'rules' => 'required|alpha_numeric_space',
-                    'errors' => [
-                        'required' => '{field} tidak boleh kosong',
-                        'alpha_numeric_space' => 'Tidak boleh mengandung karakter unik',
-                    ]
-                ],
                 'harikerjapln' => [
                     'label' => 'harikerjapln',
                     'rules' => 'required',
@@ -334,6 +315,27 @@ class Home extends BaseController
                         'required' => '{field} tidak boleh kosong',
                     ]
                 ],
+                'harikerja2' => [
+                    'label' => 'harikerja2',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'harilibur2' => [
+                    'label' => 'harilibur2',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
+                'hariagama2' => [
+                    'label' => 'hariagama2',
+                    'rules' => 'required',
+                    'errors' => [
+                        'required' => '{field} tidak boleh kosong',
+                    ]
+                ],
             ]);
             if (!$valid) {
                 $msg = [
@@ -345,6 +347,9 @@ class Home extends BaseController
                         'harikerja'     => $validation->getError('harikerja'),
                         'harilibur'      => $validation->getError('harilibur'),
                         'hariagama'      => $validation->getError('hariagama'),
+						'harikerja2'     => $validation->getError('harikerja2'),
+                        'harilibur2'      => $validation->getError('harilibur2'),
+                        'hariagama2'      => $validation->getError('hariagama2'),
                     ]
                 ];
             } else {
@@ -357,22 +362,37 @@ class Home extends BaseController
                     'harilibur'     => $this->request->getVar('harilibur'),
                     'hariagama'     => $this->request->getVar('hariagama'),
                 ];*/
-				$hitung_kerja = $this->request->getVar('harikerja') * 1;
-				$hitung_libur = $this->request->getVar('harilibur') * 1.5;
-				$hitung_agama = $this->request->getVar('hariagama') * 4;
+				$hitung_kerja = ($this->request->getVar('harikerja')+$this->request->getVar('harikerja2')) * 1;
+				$hitung_libur = ($this->request->getVar('harilibur')+$this->request->getVar('harilibur2')) * 1.5;
+				$hitung_agama = ($this->request->getVar('hariagama')+$this->request->getVar('hariagama2'))* 4;
 
 				$total = ($hitung_kerja + $hitung_libur + $hitung_agama);
 				//log_message('error',$total);
 
 				$realisasi = $total/$this->request->getVar('harikerjapln');
-				$tarif = $this->request->getVar('tarif');
-				$rp_realisasi= round(($realisasi * $this->request->getVar('koefisien'))*$tarif);
+				//$tarif = $this->request->getVar('tarif');
+				$rp_realisasi= round(($realisasi * $this->request->getVar('koefisien')),2);
 
-				if($rp_realisasi > $tarif ) {
-					$rp_realisasi=$tarif;
+				$cekhariganti = $this->request->getVar('harikerja2')+$this->request->getVar('harilibur2')+$this->request->getVar('hariagama2');
+				$cekhariagama = $this->request->getVar('hariagama')+$this->request->getVar('hariagama2');
+
+				if ($cekhariagama >= 2) {
+					$koefkali='1.5';
+				} else {
+					$koefkali='1.3';
 				}
 
-				$persen = round($rp_realisasi/ $tarif * 100).'%';
+				if($rp_realisasi > $koefkali) {
+					$rp_realisasi_max=$koefkali;
+				} else {
+					$rp_realisasi_max = $rp_realisasi;
+				}
+
+				if ($cekhariganti > 0) {
+					$rp_realisasi_max=$rp_realisasi;
+				}
+
+				//$persen = round($rp_realisasi/ $tarif * 100).'%';
 
 				//log_message('error','realisasi : '.$realisasi);
 				//log_message('error','tarif : '.$tarif);
@@ -381,11 +401,11 @@ class Home extends BaseController
                 $konfigurasi_id = $this->request->getVar('konfigurasi_id');
                 //$this->konfigurasi->update($konfigurasi_id, $simpandata);
                 $msg = [
-                    'sukses' => number_format($rp_realisasi,0),
-					'realisasi_hari' => '('.$this->request->getVar('harikerja').' X 1) + ('.$this->request->getVar('harilibur').' X 1,5) + ('.$this->request->getVar('hariagama').' X 4) = '.$total,
-					'realisasi' => '('.$total.'/'.$this->request->getVar('harikerjapln').') X '.$this->request->getVar('koefisien').' X '.$tarif.' = '. number_format($rp_realisasi,0),
+                    'sukses' => number_format($rp_realisasi_max,2),
+					'realisasi_hari' => '(('.$this->request->getVar('harikerja').'+'.$this->request->getVar('harikerja2').') X 1) + (('.$this->request->getVar('harilibur').'+'.$this->request->getVar('harilibur2').') X 1,5) + (('.$this->request->getVar('hariagama').'+'.$this->request->getVar('hariagama').') X 4) = '.$total,
+					'realisasi' => '('.$total.'/'.$this->request->getVar('harikerjapln').') X '.$this->request->getVar('koefisien').' = '. number_format($rp_realisasi,2),
 					'rp_realisasi' => $rp_realisasi,
-					'persen' => $persen
+					'rp_realisasi_max' => $rp_realisasi_max
 					
                 ];
 				//$a = 'DATA||' . $kode_hc . '||' . $tgl_tagihan . '||' . $filter_kode_vendor . '||' . $filter_nama_vendor . '||' . $filter_no_tagihan . '||' . $filter_kode_vendor_sap . '||' . $aktif;

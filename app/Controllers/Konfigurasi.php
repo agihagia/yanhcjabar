@@ -31,6 +31,8 @@ class Konfigurasi extends BaseController
 
     public function submit()
     {
+        
+		log_message('error','kesisni');
         if ($this->request->isAJAX()) {
             $validation = \Config\Services::validation();
             $valid = $this->validate([
