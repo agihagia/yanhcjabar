@@ -124,4 +124,10 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
+/app/Config/Database.php
 
+#custom
+/public/img/*
+vendor/*
+app/Config/Logger.php
+app/Config/Database.php

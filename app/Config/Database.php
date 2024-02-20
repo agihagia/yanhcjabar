@@ -33,10 +33,13 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'root',
+		'hostname' => '153.92.10.233',
+		/*'username' => 'root',
 		'password' => 'dbfit@pln2021',
-		'database' => 'layananhc',
+		'database' => 'layananhc',*/
+		'username' => 'u1585567_hcjabar',
+		'password' => 'Pisangmonyet@2023',
+		'database' => 'u1585567_hcjabar',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
@@ -50,7 +53,8 @@ class Database extends \CodeIgniter\Database\Config
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => 3307,
+		'port'     => 3306,
+		//'port'     => 3307,
 	];
 
 	/**
