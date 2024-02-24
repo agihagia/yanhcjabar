@@ -46,8 +46,8 @@
   <script src="<?= base_url() ?>/assets/front/assets/vendor/aos/aos.js"></script>
 
   <!-- Sweet-Alert  -->
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>/assets/front/assets/js/main.js"></script>
@@ -116,6 +116,7 @@
               </div>
             </li>
             <li><a href="../#footer">CONTACT</a></li>
+            <li><a href="<?= base_url('/bukutamu') ?>">BUKU TAMU</a></li>
           </ul>
         </nav><!-- .nav-menu -->
         <a href="<?= base_url('provider') ?>" class="get-started-btn">PROVIDER KESEHATAN</a>
